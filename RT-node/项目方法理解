@@ -1,6 +1,25 @@
+前言：Node
+
+1.Node就是处理高并发的！　　　　　事件驱动　异步IO   
+
+
+
+
 
 一：写文件  流的形式写，来解决高并发的问题。
-
+1.fs.writeFile    异步写文件    fs.writeFile(file, data[, options], callback)
+  Note that it is unsafe to use fs.writeFile multiple times on the same file without waiting for the callback. For this scenario,      
+  fs.createWriteStream is strongly recommended.
+  
+2.fs.readdirSync(path,[options])     同步读 
 
 
 二：删除文件报错
+
+
+
+
+
+
+
+
