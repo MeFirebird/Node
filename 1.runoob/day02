@@ -1,0 +1,57 @@
+
+一：全局对象  global
+
+1.__dirname:当前执行脚本所在的目录
+
+2.js函数的调用，直接函数名就可哦    hello()  调用的时候直接hello
+
+3.setInterva会不断你的调用，而setTimeout必须写成递归的形式才会不停的调用哦！　　这就是区别！　
+
+4.process：全局对象，global对象的属性
+  process对象自带的一些事件      以及进程错误的状态码
+  process对象的属性
+  process对象的方法
+  
+5.Node.js提供的工具模块  util   
+
+6.Node.js的文件API   
+
+7.哦，提供了异步，当然是能用异步就用异步啦，性能高啊！　速度快啊！  不阻塞啊！　　
+　同步流程，写成异步流程：这样就不会阻塞了啊，　　　事件队列和异步ＩＯ啊！ 
+ 
+8.解析url： url模块
+
+9.path模块：处理路径    跨平台           os模块：读取OS的一些基本信息
+
+10.web服务器：提供web信息浏览服务     apache  IIS   Nginx
+
+
+二：Express框架
+
+1.路由：由谁去响应具体请求？
+
+
+
+
+三：Nodejs 多进程    通过创建子进程
+
+1.每个子进程总是带有三个流对象：child.stdin, child.stdout 和child.stderr。他们可能会共享父进程的 stdio 流，或者也可以是独立的被导流的流对象。
+
+2.Node 提供了 child_process 模块来创建子进程，方法有：
+  A.child_process.exec(command[, options], callback)
+  B.child_process.spawn(command[, args][, options])
+  C.child_process.fork(modulePath[, args][, options])
+  
+四：Node.js JXcore 打包   打包node项目
+
+
+
+
+
+
+
+
+
+
+
+
